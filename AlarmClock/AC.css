@@ -1,0 +1,53 @@
+/*$in@*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Montserrat:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend', sans-serif;
+}
+.flex{display: flex;}
+.justify-center{justify-content: center}
+.align-center{align-items: center}
+.between{justify-content: space-between}
+.radius-1rem{border-radius: 1rem}
+.radius-5px{border-radius: 5px}
+.text-center{text-align: center}
+.pointer{cursor: pointer}
+body {background: #006fff;}
+.container {
+    background: white;
+    width: 35rem;
+    margin-top: 7rem;
+}
+img {
+    width: 150px;
+    margin-top: 0.7rem;
+}
+.time {font-size: 48px;}
+.set-time {margin: 2rem 3rem 0;}
+.set-time label{width: 50%;}
+.set-time select{
+    width: 95%;
+    font-size: 16px;
+    height: 2rem;
+    outline: none;
+    border: 2px solid #aaa;
+    box-shadow: 5px 5px 5px #ccc;
+}
+.set-time.disable{
+    opacity: 0.5;
+    pointer-events: none;
+}
+.button-container{margin: 0 3rem;}
+button {
+    width: 98%;
+    margin: 1.2rem 0 2rem;
+    outline: none;
+    border: none;
+    height: 3.2rem;
+    background: #006fff;
+    color: white;
+    font-size: 24px;
+    box-shadow: 5px 5px 10px #999;
+}

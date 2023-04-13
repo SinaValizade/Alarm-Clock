@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./AC.css">
+    <title>Alam Clock</title>
+</head>
+<body class="flex justify-center">
+<div class="container text-center radius-1rem">
+    <img src="./files/alarm-clock-icon.png" alt="alarm clock">
+    <p class="time"></p>
+    <div class="set-time flex between">
+        <label>
+            <select class="Hour pointer radius-5px">
+                <option value="Hour" hidden>Hour</option>
+            </select>
+        </label>
+        <label>
+            <select class="Minute pointer radius-5px">
+                <option hidden>Minute</option>
+            </select>
+        </label>
+    </div>
+    <div class="button-container">
+    <button class="pointer radius-5px">set alarm</button>
+    </div>
+</div>
+<script src="alarmClock.js"></script>
+</body>
+</html>
